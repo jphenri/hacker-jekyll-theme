@@ -1,13 +1,10 @@
 ---
----
-@import 'jekyll-theme-hacker';
 @font-face {
     font-family: 'BigBlueTerm437';
     src: url('../fonts/BigBlueTerm437NerdFont-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
 body {
     font-family: 'BigBlueTerm437', sans-serif;
 }
@@ -26,6 +23,7 @@ h1, h2, h3, h4, h5, h6, .site-title, .site-title:visited  {
 /* typing */
 
   .site-title {
+
     text-align: center;
     margin-top: 5vh;
     width: 100%;
@@ -48,3 +46,5 @@ h1, h2, h3, h4, h5, h6, .site-title, .site-title:visited  {
     from, to { border-color: transparent; }
     50% { border-color: orange; }
   }
+---
+  @import 'jekyll-theme-hacker';
