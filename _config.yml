@@ -1,13 +1,6 @@
 title: JPHENRI.COM
-author:
-  name: jphenri
 description: >
   👋 When I'm bored, I work here in my sandbox
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap # Generates a sitemap.xml file
-  #- jekyll-paginate # Adds pagination
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-hacker
