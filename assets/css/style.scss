@@ -1,4 +1,51 @@
 ---
 ---
+@font-face {
+    font-family: 'BigBlueTerm437';
+    src: url('../fonts/BigBlueTerm437NerdFont-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'BigBlueTerm437', sans-serif;
+}
+
+/* Apply the Nerd Font */
+body {
+    font-family: 'BigBlueTerm437', sans-serif;
+}
+
+/* Apply the Nerd Font to specific elements */
+h1, h2, h3, h4, h5, h6, .site-title, .site-title:visited  {
+    font-family: 'BigBlueTerm437', sans-serif;
+    color: limegreen;
+}
+
+/* typing */
+
+  .site-title {
+    text-align: center;
+    margin-top: 5vh;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid orange; /* The cursor */
+  }
+
+  .site-title {
+    display: inline-block;
+    animation: typing 4s steps(50, end), blink-caret 0.75s step-end infinite;
+  }
+
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: orange; }
+  }
 
 @import 'jekyll-theme-hacker';
